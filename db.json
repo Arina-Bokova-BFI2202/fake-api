@@ -1,22 +1,19 @@
-[
-  {
-    "id": 1,
-    "date": "2024-12-12T10:00:00Z",
-    "coordinates": {
-      "latitude": 55.7558,
-      "longitude": 37.6173
+{
+  "orders": [
+    {
+      "id": 1,
+      "date": "2024-12-12T10:00:00Z",
+      "coordinates": { "latitude": 55.7558, "longitude": 37.6173 },
+      "quantity": 3,
+      "totalPrice": 1500
     },
-    "quantity": 4,
-    "totalPrice": 400
-  },
-  {
-    "id": 2,
-    "date": "2024-12-12T11:00:00Z",
-    "coordinates": {
-      "latitude": 55.7522,
-      "longitude": 37.6156
-    },
-    "quantity": 2,
-    "totalPrice": 200
-  }
-]
+
+    {
+      "id": 2,
+      "date": "2024-12-12T10:00:00Z",
+      "coordinates": { "latitude": 55.7558, "longitude": 37.6173 },
+      "quantity": 4,
+      "totalPrice": 20000
+    }
+  ]
+}
